@@ -29,5 +29,4 @@ To Host on a Webserver:
 
 ## TODO
  - Add support for official BBCode.
- - Have Clear add one row and one column by default.
  - Clean up code in general so it's less clear I wrote the original in under 3hrs.

@@ -69,7 +69,8 @@ function clear() {
 	conHead.checked = false;
 	element.empty();
 	rows = 0;
-	cols = 0;
+	cols = 1;
+	addRow();
 	update();
 }
  
