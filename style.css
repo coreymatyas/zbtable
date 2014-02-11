@@ -1,27 +1,27 @@
 body {
-        background-color: #EEEEEE;
-        font-family: "Arial", sans-serif;
+	background-color: #EEEEEE;
+	font-family: "Arial", sans-serif;
 }
  
 #rowAdd, #rowDel, #colAdd, #colDel {
-        width: 50px;
+	width: 50px;
 }
  
 table, tr, td {
-        border: 2px navy solid;
-        border-collapse: collapse;
+	border: 2px navy solid;
+	border-collapse: collapse;
 }
  
 textarea {
-        resize: none;
+	resize: none;
 }
  
 .cell {
-        width: 150px;
-        height: 75px;
+	width: 150px;
+	height: 75px;
 }
  
 .cell textarea {
-        width: inherit;
-        height: inherit;
+	width: inherit;
+	height: inherit;
 }

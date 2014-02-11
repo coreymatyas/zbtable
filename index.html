@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
-        <head>
-                <title>ZetaBoards Table Editor</title>
-                <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-                <script src="script.js"></script>
-                <link rel="stylesheet" type="text/css" href="style.css"/>
-        </head>
-        <body>
-                <h1>ZetaBoards Table Editor</h1>
-                <div id="editorControls">
-                        Row: <button id="rowAdd">+</button><button id="rowDel">-</button>
-                        Col: <button id="colAdd">+</button><button id="colDel">-</button>&nbsp;&nbsp;&nbsp;
-                        <button id="btnClear">Clear</button><br/>
-                        Title: <input type="text" id="tableTitle"/>&nbsp;<input type="checkbox" id="tableHead">Header</input>
-                </div><br/>
-                       
-                <table id="editor"></table>
-               
-                <br/><hr/>
-               
-                <div id="results">
-                        <h3>Output:</h3>
-                        <textarea id="output" rows="5" cols="100" wrap="soft" readonly></textarea><br/>
-                        <button id="outputSelect">Select All</button>
-                </div>
-               
-                <br/><hr/>
-               
-                <div id="loader">
-                        <h3>Loader:</h3>
-                        <textarea id="loadText" rows="5" cols="100" wrap="soft"></textarea><br/>
-                        <button id="btnLoad">Load</button>
-                </div>
-        </body>
+	<head>
+		<title>ZetaBoards Table Editor</title>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<h1>ZetaBoards Table Editor</h1>
+		<div id="editorControls">
+			Row: <button id="rowAdd">+</button><button id="rowDel">-</button>
+			Col: <button id="colAdd">+</button><button id="colDel">-</button>&nbsp;&nbsp;&nbsp;
+			<button id="btnClear">Clear</button><br/>
+			Title: <input type="text" id="tableTitle"/>&nbsp;<input type="checkbox" id="tableHead">Header</input>
+		</div><br/>
+		       
+		<table id="editor"></table>
+	       
+		<br/><hr/>
+	       
+		<div id="results">
+			<h3>Output:</h3>
+			<textarea id="output" rows="5" cols="100" wrap="soft" readonly></textarea><br/>
+			<button id="outputSelect">Select All</button>
+		</div>
+	       
+		<br/><hr/>
+	       
+		<div id="loader">
+			<h3>Loader:</h3>
+			<textarea id="loadText" rows="5" cols="100" wrap="soft"></textarea><br/>
+			<button id="btnLoad">Load</button>
+		</div>
+	</body>
 </html>
