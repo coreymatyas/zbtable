@@ -12,6 +12,8 @@ At the moment, this only works for ZetaBoards-style tables, however official BBC
 will be supported "eventually" (whenever I don't have something else to do). Feel free to 
 submit a pull request if you get to it first!
 
+**[Live Demo](http://code.coreymatyas.com/zbtable/)**
+
 ## Installation / Use
 For Personal Use:
 
@@ -29,4 +31,3 @@ To Host on a Webserver:
  - Add support for official BBCode.
  - Have Clear add one row and one column by default.
  - Clean up code in general so it's less clear I wrote the original in under 3hrs.
- - Add live demo somewhere.
