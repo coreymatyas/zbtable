@@ -15,17 +15,18 @@ submit a pull request if you get to it first!
 ## Installation / Use
 For Personal Use:
 
-1. Download (either use the Github "Download ZIP" button or clone the repository)
-2. Double-click on index.html
+1. Download (either use the Github "Download ZIP" button or clone the repository.)
+2. Double-click on index.html.
 3. Use!
 
 To Host on a Webserver:
 
-1. Download (either use the Github "Download ZIP" button or clone the repository)
+1. Download (either use the Github "Download ZIP" button or clone the repository.)
 2. Configure your webserver to use index.html as the index for the path you host it on.
 3. Visit the path index.html is in using the browser of your choice.
 
 ## TODO
- - Add support for official BBCode
- - Have Clear add one row and one column by default
+ - Add support for official BBCode.
+ - Have Clear add one row and one column by default.
  - Clean up code in general so it's less clear I wrote the original in under 3hrs.
+ - Add live demo somewhere.
