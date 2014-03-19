@@ -27,6 +27,5 @@ To Host on a Webserver:
 2. Configure your webserver to use index.html as the index for the path you host it on.
 3. Visit the path index.html is in using the browser of your choice.
 
-## TODO
- - Add support for official BBCode.
- - Clean up code in general so it's less clear I wrote the original in under 3hrs.
+## Contributing
+Feel free to resolve any issues in the GitHub Issues section of this repository. If you submit a patch via pull request, I'll likely have it merged within a couple days. I have no strict style guide, just try and be consistent.
